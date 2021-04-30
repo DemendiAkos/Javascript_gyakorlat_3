@@ -1,8 +1,6 @@
 let body = document.querySelector(".list");
 let number = -1;
 
-
-
 for ( n = 0 ; n <= 20; n++ ) {
     let newRow = document.createElement("tr");
     let newNumber = document.createElement("td");
